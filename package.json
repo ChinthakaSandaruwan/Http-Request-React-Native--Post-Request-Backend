@@ -1,0 +1,33 @@
+{
+  "name": "http-request-react-native--post-request-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChinthakaSandaruwan/Http-Request-React-Native--Post-Request-Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ChinthakaSandaruwan/Http-Request-React-Native--Post-Request-Backend/issues"
+  },
+  "homepage": "https://github.com/ChinthakaSandaruwan/Http-Request-React-Native--Post-Request-Backend#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.22.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/mysql": "^2.15.27",
+    "@types/node": "^25.9.0",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
